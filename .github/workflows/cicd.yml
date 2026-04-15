@@ -1,0 +1,23 @@
+name: cicd
+on: 
+  push:
+    branches:
+      - main
+
+
+jobs:
+  test-ci-cd:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: setup-pyhton
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+
+
+    
