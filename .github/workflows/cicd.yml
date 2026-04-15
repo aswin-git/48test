@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Requirements
+        run: pip install -r requirements.txt
+
       - name: pylint
         run: pylint src
 
