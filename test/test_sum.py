@@ -1,5 +1,5 @@
 import pytest
-from src.sam import add
+from sam import add
 
 def test_sum():
     '''test the add'''
