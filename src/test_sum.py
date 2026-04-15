@@ -1,5 +1,5 @@
 from sam import add
 
 def test_sum():
-    '''test the add'''
+    """ This test the sum. """
     assert add(2,2) == 4
